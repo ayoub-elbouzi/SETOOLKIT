@@ -31,8 +31,8 @@ You can easily install Social Engineer Toolkit on WSL/WSL2 without needing pip u
 
 #### Linux
 ```bash
-git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
-cd setoolkit
+git clone https://github.com/Pr0f3ssor/SETOOLKIT.git
+cd SETOOLKIT
 pip3 install -r requirements.txt
 python setup.py
 ```
