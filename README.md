@@ -39,7 +39,7 @@ python setup.py
 <br/>
 
 ## SET Tutorial
-For a full document on how to use SET, [visit the SET user manual](https://github.com/trustedsec/social-engineer-toolkit/raw/master/readme/User_Manual.pdf).
+For a full document on how to use SET, [visit the SET user manual](User_Manual.pdf).
 
 <br/>
 
