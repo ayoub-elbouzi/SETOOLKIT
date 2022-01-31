@@ -1,8 +1,5 @@
 # The Social-Engineer Toolkit (SET)
-* Copyright :copyright: 2020
-* Written by: David Kennedy (ReL1K) @HackingDave 
-* Company: [TrustedSec](https://www.trustedsec.com)
-
+The Social-Engineer Toolkit (SET) is specifically designed to perform advanced attacks against the human element. SET was designed to be released with the http://www.social-engineer.org launch and has quickly became a standard tool in a penetration testers arsenal. The attacks built into the toolkit are designed to be focused attacks against a person or organization used during a penetration test.
 <br/>
 
 ## Description
@@ -23,11 +20,6 @@ Please read the LICENSE under readme/LICENSE for the licensing of SET.
 pip3 install -r requirements.txt
 python3 setup.py 
 ```
-
-## Install SET
-=======
-* Mac OS X
-<br/>
 
 ## Installation
 #### Windows 10 WSL/WSL2 Kali Linux
@@ -51,6 +43,3 @@ For a full document on how to use SET, [visit the SET user manual](https://githu
 
 <br/>
 
-## Bugs and enhancements
-For bug reports or enhancements, please open an [issue](https://github.com/trustedsec/social-engineer-toolkit/issues) here.
-<br/>
