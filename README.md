@@ -1,32 +1,56 @@
-# SETOOLKIT
-The Social-Engineer Toolkit (SET) is specifically designed to perform advanced attacks against the human element. 
-It was designed to be released with the http://www.social-engineer.org launch and has quickly became a standard tool in a penetration testers arsenal.
-The attacks built into the toolkit are designed to be focused attacks against a person or organization used during a penetration test.
+# The Social-Engineer Toolkit (SET)
+* Copyright :copyright: 2020
+* Written by: David Kennedy (ReL1K) @HackingDave 
+* Company: [TrustedSec](https://www.trustedsec.com)
 
-# Usage 
-SET by default works perfect for most people however, advanced customization may be needed in order to ensure that the attack vectors go off without a hitch. First thing to do is ensure that you install the requirements for this tool from the directory by this command:
+<br/>
+
+## Description
+The Social-Engineer Toolkit is an open-source penetration testing framework designed for social engineering. SET has a number of custom attack vectors that allow you to make a believable attack quickly. SET is a product of TrustedSec, LLC – an information security consulting firm located in Cleveland, Ohio.
+
+DISCLAIMER: This is *only* for testing purposes and can only be used where strict consent has been given. Do not use this for illegal purposes, period.
+Please read the LICENSE under readme/LICENSE for the licensing of SET. 
+
+#### Supported platforms:
+* Linux
+* Mac OS X (experimental)
+
+# Installation
+
+## Install via requirements.txt
+
+```bash
+pip3 install -r requirements.txt
+python3 setup.py 
 ```
-(professor㉿kali)-[~/setoolkit]
-└─$ pip3 install -r requirements.txt 
+
+## Install SET
+=======
+* Mac OS X
+<br/>
+
+## Installation
+#### Windows 10 WSL/WSL2 Kali Linux
+```bash
+sudo apt install set -y
 ```
-After that, make sure that you have updated SET, from the directory:
+Kali Linux on Windows 10 is a minimal installation so it doesn't have any tools installed.
+You can easily install Social Engineer Toolkit on WSL/WSL2 without needing pip using the above command.
+
+#### Linux
+```bash
+git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
+cd setoolkit
+pip3 install -r requirements.txt
+python setup.py
 ```
-(professor㉿kali)-[~/setoolkit]
-└─$ ./set-update 
-```
-Once you’ve updated to the latest version, start tweaking your attack by editing the
-SET configuration file :
-```
-(professor㉿kali)-[~/setoolkit]
-└─$ nano config/set_config
-```
-And finally you can run it normally by running setoolkit file :
-```
-(professor㉿kali)-[~/setoolkit]
-└─$ ./setoolkit 
-```
-If it show up like this : ./setoolkit: command not found   then make it excutable by the following command (and repeat last command after it) :
-```
-(professor㉿kali)-[~/setoolkit]
-└─$ chmod +x setoolkit
-```
+<br/>
+
+## SET Tutorial
+For a full document on how to use SET, [visit the SET user manual](https://github.com/trustedsec/social-engineer-toolkit/raw/master/readme/User_Manual.pdf).
+
+<br/>
+
+## Bugs and enhancements
+For bug reports or enhancements, please open an [issue](https://github.com/trustedsec/social-engineer-toolkit/issues) here.
+<br/>
