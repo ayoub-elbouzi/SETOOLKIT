@@ -26,7 +26,7 @@ if operating_system == "posix":
     #
 
     if os.geteuid() != 0:
-        print("\n The Social-Engineer Toolkit (SET) - by David Kennedy (ReL1K)")
+        print("\n The Social-Engineer Toolkit (SET) - Edited by Professor ")
         print("\n Not running as root. \n\nExiting the Social-Engineer Toolkit (SET).\n")
         core.exit_set()
 
@@ -213,17 +213,17 @@ try:
 
         # funny3
         if main_menu_choice == "derbycon":
-            core.print_warning(core.bcolors.BOLD + "YAYYYYYYYYYYYYYYYYYYYYYY DerbyCon.\n\nDerbyCon 7.0 'Legacy' -- September 22th - 24th 2017" + core.bcolors.ENDC)
+            core.print_warning(core.bcolors.BOLD + "YAYYYYYYYYYYYYYYYYYYYYYY DerbyCon.\n\nDerbyCon 7.0" + core.bcolors.ENDC)
             pause = input(core.bcolors.BOLD + "\nDon't miss it! Sep 23 - Sep 25th! Press {return} to continue." + core.bcolors.ENDC)
 
         # rance
         if main_menu_choice == "rance":
-            core.print_warning(core.bcolors.BOLD + "We miss you buddy. David Jones (Rance) changed a lot of us and you'll always be apart of our lives (and SET). Fuck Cancer." + core.bcolors.ENDC)
+            core.print_warning(core.bcolors.BOLD + "We miss you buddy. David Jones changed a lot of us and you'll always be apart of our lives (and SET). Fuck Cancer." + core.bcolors.ENDC)
             pause = input("Press {return} to continue.")
 
         # cavs
         if main_menu_choice == "cavs":
-            core.print_warning(core.bcolors.BOLD + "2015-2016 CHAMPS BABY!!! C l e e e e e  e v  eeee l a a n n d d d d d d d d d d d " + core.bcolors.ENDC)
+            core.print_warning(core.bcolors.BOLD + "CHAMPS BABY!!! C l e e e e e  e v  eeee l a a n n d d d d d d d d d d d " + core.bcolors.ENDC)
             pause = input("Press {return} to continue.")
 
         # quit out
@@ -270,12 +270,6 @@ try:
         # update config
         if main_menu_choice == '6':
             core.help_menu()
-
-# handle keyboard interrupts
-except KeyboardInterrupt:
-    print(("\n\nThank you for {0}shopping{1} with the Social-Engineer Toolkit."
-           "\n\nHack the Gibson...and remember...hugs are worth more "
-           "than handshakes.\n".format(core.bcolors.RED, core.bcolors.ENDC)))
 
 # handle exceptions
 except Exception as error:
